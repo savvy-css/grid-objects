@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@savvy-css/spacing-variables@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/spacing-variables/-/spacing-variables-0.0.1.tgz#0a5d47759dee9258857d16ffd7d39260750cccd6"
+
 "@savvy-css/stylelint-config-savvy@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@savvy-css/stylelint-config-savvy/-/stylelint-config-savvy-0.1.0.tgz#a8622d2b201f16602fda0d5eb5362a7d71b9ac9e"
