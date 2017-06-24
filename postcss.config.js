@@ -1,14 +1,16 @@
 /* eslint-env node */
 
-module.exports = function (ctx) {
-  const { file: { basename: CURRENT_FILE_BASE_NAME } } = ctx;
+module.exports = (ctx) => {
+  const { file: { basename: CURRENT_FILE_BASE_NAME, dirname: fileDirName } } = ctx;
 
   return {
     plugins: {
       // ⚠️ Order matters! PostCSS will run plugins in the order listed.
       stylelint: {},
 
-      'postcss-import': {},
+      'postcss-import': {
+        root: fileDirName
+      },
 
       'postcss-cssnext': {
         features: {
