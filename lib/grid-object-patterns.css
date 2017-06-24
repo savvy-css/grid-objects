@@ -183,7 +183,7 @@
  * Cell Sizing: 1/12
  */
 
-.o-grid-cell.o-grid-cell-1 {
+.o-grid-cell.o-grid-cell--1 {
   flex-basis: 8.33333333%;
   max-width: 8.33333333%;
 }
@@ -192,7 +192,7 @@
  * Cell Sizing: 2/12
  */
 
-.o-grid-cell.o-grid-cell-2 {
+.o-grid-cell.o-grid-cell--2 {
   flex-basis: 16.66666667%;
   max-width: 16.66666667%;
 }
@@ -201,7 +201,7 @@
  * Cell Sizing: 3/12
  */
 
-.o-grid-cell.o-grid-cell-3 {
+.o-grid-cell.o-grid-cell--3 {
   flex-basis: 25%;
   max-width: 25%;
 }
@@ -210,7 +210,7 @@
  * Cell Sizing: 4/12
  */
 
-.o-grid-cell.o-grid-cell-4 {
+.o-grid-cell.o-grid-cell--4 {
   flex-basis: 33.33333333%;
   max-width: 33.33333333%;
 }
@@ -219,7 +219,7 @@
  * Cell Sizing: 5/12
  */
 
-.o-grid-cell.o-grid-cell-5 {
+.o-grid-cell.o-grid-cell--5 {
   flex-basis: 41.66666667%;
   max-width: 41.66666667%;
 }
@@ -228,7 +228,7 @@
  * Cell Sizing: 6/12
  */
 
-.o-grid-cell.o-grid-cell-6 {
+.o-grid-cell.o-grid-cell--6 {
   flex-basis: 50%;
   max-width: 50%;
 }
@@ -237,7 +237,7 @@
  * Cell Sizing: 7/12
  */
 
-.o-grid-cell.o-grid-cell-7 {
+.o-grid-cell.o-grid-cell--7 {
   flex-basis: 58.33333333%;
   max-width: 58.33333333%;
 }
@@ -246,7 +246,7 @@
  * Cell Sizing: 8/12
  */
 
-.o-grid-cell.o-grid-cell-8 {
+.o-grid-cell.o-grid-cell--8 {
   flex-basis: 66.66666667%;
   max-width: 66.66666667%;
 }
@@ -255,7 +255,7 @@
  * Cell Sizing: 9/12
  */
 
-.o-grid-cell.o-grid-cell-9 {
+.o-grid-cell.o-grid-cell--9 {
   flex-basis: 75%;
   max-width: 75%;
 }
@@ -264,7 +264,7 @@
  * Cell Sizing: 10/12
  */
 
-.o-grid-cell.o-grid-cell-10 {
+.o-grid-cell.o-grid-cell--10 {
   flex-basis: 83.33333333%;
   max-width: 83.33333333%;
 }
@@ -273,7 +273,7 @@
  * Cell Sizing: 11/12
  */
 
-.o-grid-cell.o-grid-cell-11 {
+.o-grid-cell.o-grid-cell--11 {
   flex-basis: 91.66666667%;
   max-width: 91.66666667%;
 }
@@ -282,7 +282,7 @@
  * Cell Sizing: 12/12
  */
 
-.o-grid-cell.o-grid-cell-12 {
+.o-grid-cell.o-grid-cell--12 {
   flex-basis: 100%;
   max-width: 100%;
 }
@@ -291,7 +291,7 @@
  * Cell Offset From Left: 1 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-1 {
+.o-grid-cell.o-grid-cell--offset-1 {
   margin-left: 8.33333333%;
 }
 
@@ -299,7 +299,7 @@
  * Cell Offset From Left: 2 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-2 {
+.o-grid-cell.o-grid-cell--offset-2 {
   margin-left: 16.66666667%;
 }
 
@@ -307,7 +307,7 @@
  * Cell Offset From Left: 3 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-3 {
+.o-grid-cell.o-grid-cell--offset-3 {
   margin-left: 25%;
 }
 
@@ -315,7 +315,7 @@
  * Cell Offset From Left: 4 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-4 {
+.o-grid-cell.o-grid-cell--offset-4 {
   margin-left: 33.33333333%;
 }
 
@@ -323,7 +323,7 @@
  * Cell Offset From Left: 5 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-5 {
+.o-grid-cell.o-grid-cell--offset-5 {
   margin-left: 41.66666667%;
 }
 
@@ -331,7 +331,7 @@
  * Cell Offset From Left: 6 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-6 {
+.o-grid-cell.o-grid-cell--offset-6 {
   margin-left: 50%;
 }
 
@@ -339,7 +339,7 @@
  * Cell Offset From Left: 7 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-7 {
+.o-grid-cell.o-grid-cell--offset-7 {
   margin-left: 58.33333333%;
 }
 
@@ -347,7 +347,7 @@
  * Cell Offset From Left: 8 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-8 {
+.o-grid-cell.o-grid-cell--offset-8 {
   margin-left: 66.66666667%;
 }
 
@@ -355,7 +355,7 @@
  * Cell Offset From Left: 9 /12
  */
 
-.o-grid-cell.o-grid-cell-offset-9 {
+.o-grid-cell.o-grid-cell--offset-9 {
   margin-left: 75%;
 }
 
@@ -363,7 +363,7 @@
  * Cell Offset From Left: 10/12
  */
 
-.o-grid-cell.o-grid-cell-offset-10 {
+.o-grid-cell.o-grid-cell--offset-10 {
   margin-left: 83.33333333%;
 }
 
@@ -371,7 +371,7 @@
  * Cell Offset From Left: 11/12
  */
 
-.o-grid-cell.o-grid-cell-offset-11 {
+.o-grid-cell.o-grid-cell--offset-11 {
   margin-left: 91.66666667%;
 }
 
