@@ -1,12 +1,16 @@
 /* eslint-env node */
 
+const path = require('path');
+
 module.exports = (ctx) => {
   const { file: { basename: CURRENT_FILE_BASE_NAME, dirname: fileDirName } } = ctx;
 
   return {
     plugins: {
       // ⚠️ Order matters! PostCSS will run plugins in the order listed.
-      stylelint: {},
+      stylelint: {
+        configFile: path.join(__dirname, 'stylelint.config.js')
+      },
 
       'postcss-import': {
         root: fileDirName
@@ -24,7 +28,13 @@ module.exports = (ctx) => {
       // a minified production build
       cssnano: ctx.env === 'production' ? {} : false,
 
-      'postcss-reporter': {}
+      'postcss-reporter': {
+        clearAllMessages: true,
+        throwError: true,
+        plugins: [
+          'stylelint'
+        ]
+      }
     }
   };
 };
