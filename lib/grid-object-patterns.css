@@ -29,7 +29,7 @@
  * first and last flex item edges.
  */
 
-.o-grid.o-grid--space-between {
+.o-grid--space-between {
   justify-content: space-between;
 }
 
@@ -39,7 +39,7 @@
  * half of the space between two adjacent items.
  */
 
-.o-grid.o-grid--space-around {
+.o-grid--space-around {
   justify-content: space-around;
 }
 
@@ -47,7 +47,7 @@
  * Modifier: center-align all grid cells
  */
 
-.o-grid.o-grid--align-center {
+.o-grid--align-center {
   justify-content: center;
 }
 
@@ -55,7 +55,7 @@
  * Modifier: right-align all grid cells
  */
 
-.o-grid.o-grid--align-right {
+.o-grid--align-right {
   justify-content: flex-end;
 }
 
@@ -66,7 +66,7 @@
  * helper usually won't be necessary, but is provided for completeness
  */
 
-.o-grid.o-grid--align-left {
+.o-grid--align-left {
   justify-content: flex-start;
 }
 
@@ -74,7 +74,7 @@
  * Modifier: middle-align all grid cells
  */
 
-.o-grid.o-grid--align-middle {
+.o-grid--align-middle {
   align-items: center;
 }
 
@@ -82,7 +82,7 @@
  * Modifier: bottom-align all grid cells
  */
 
-.o-grid.o-grid--align-bottom {
+.o-grid--align-bottom {
   align-items: flex-end;
 }
 
@@ -93,7 +93,7 @@
  * helper usually won't be necessary, but is provided for completeness
  */
 
-.o-grid.o-grid--align-top {
+.o-grid--align-top {
   align-items: flex-start;
 }
 
@@ -101,7 +101,7 @@
  * Modifier: Prevent grid cells from wrapping to the next line
  */
 
-.o-grid.o-grid--nowrap {
+.o-grid--nowrap {
   flex-wrap: nowrap;
 }
 
@@ -115,7 +115,7 @@
  *    http://git.io/vllWx
  */
 
-.o-grid.o-grid--fit > .o-grid-cell {
+.o-grid--fit > .o-grid-cell {
   flex: 1 1 0%; /* 1 */
 }
 
@@ -123,7 +123,7 @@
  * Modifier: allow cells to fill the entire width of their grid container
  */
 
-.o-grid.o-grid--fill > .o-grid-cell {
+.o-grid--fill > .o-grid-cell {
   flex: 1 0 100%;
 }
 
@@ -132,7 +132,7 @@
  * Modifier: all cells match height of tallest cell in a row
  */
 
-.o-grid.o-grid--equal-height > .o-grid-cell {
+.o-grid--equal-height > .o-grid-cell {
   display: flex;
 }
 
@@ -140,24 +140,24 @@
  * Modifier: gutters
  */
 
-.o-grid.o-grid--guttered {
+.o-grid--guttered {
   margin: 0 calc(-0.5 * var(--spacing-md));
 }
-.o-grid.o-grid--guttered > .o-grid-cell {
+.o-grid--guttered > .o-grid-cell {
   padding: 0 calc(0.5 * var(--spacing-md));
 }
 
-.o-grid.o-grid--guttered-sm {
+.o-grid--guttered-sm {
   margin: 0 calc(-0.5 * var(--spacing-sm));
 }
-.o-grid.o-grid--guttered-sm> .o-grid-cell {
+.o-grid--guttered-sm> .o-grid-cell {
   padding: 0 calc(0.5 * var(--spacing-sm));
 }
 
-.o-grid.o-grid--guttered-lg {
+.o-grid--guttered-lg {
   margin: 0 calc(-0.5 * var(--spacing-lg));
 }
-.o-grid.o-grid--guttered-lg > .o-grid-cell {
+.o-grid--guttered-lg > .o-grid-cell {
   padding: 0 calc(0.5 * var(--spacing-lg));
 }
 
@@ -183,7 +183,7 @@
  * Cell Sizing: 1/12
  */
 
-.o-grid-cell.o-grid-cell--1 {
+.o-grid-cell--1 {
   flex-basis: 8.33333333%;
   max-width: 8.33333333%;
 }
@@ -192,7 +192,7 @@
  * Cell Sizing: 2/12
  */
 
-.o-grid-cell.o-grid-cell--2 {
+.o-grid-cell--2 {
   flex-basis: 16.66666667%;
   max-width: 16.66666667%;
 }
@@ -201,7 +201,7 @@
  * Cell Sizing: 3/12
  */
 
-.o-grid-cell.o-grid-cell--3 {
+.o-grid-cell--3 {
   flex-basis: 25%;
   max-width: 25%;
 }
@@ -210,7 +210,7 @@
  * Cell Sizing: 4/12
  */
 
-.o-grid-cell.o-grid-cell--4 {
+.o-grid-cell--4 {
   flex-basis: 33.33333333%;
   max-width: 33.33333333%;
 }
@@ -219,7 +219,7 @@
  * Cell Sizing: 5/12
  */
 
-.o-grid-cell.o-grid-cell--5 {
+.o-grid-cell--5 {
   flex-basis: 41.66666667%;
   max-width: 41.66666667%;
 }
@@ -228,7 +228,7 @@
  * Cell Sizing: 6/12
  */
 
-.o-grid-cell.o-grid-cell--6 {
+.o-grid-cell--6 {
   flex-basis: 50%;
   max-width: 50%;
 }
@@ -237,7 +237,7 @@
  * Cell Sizing: 7/12
  */
 
-.o-grid-cell.o-grid-cell--7 {
+.o-grid-cell--7 {
   flex-basis: 58.33333333%;
   max-width: 58.33333333%;
 }
@@ -246,7 +246,7 @@
  * Cell Sizing: 8/12
  */
 
-.o-grid-cell.o-grid-cell--8 {
+.o-grid-cell--8 {
   flex-basis: 66.66666667%;
   max-width: 66.66666667%;
 }
@@ -255,7 +255,7 @@
  * Cell Sizing: 9/12
  */
 
-.o-grid-cell.o-grid-cell--9 {
+.o-grid-cell--9 {
   flex-basis: 75%;
   max-width: 75%;
 }
@@ -264,7 +264,7 @@
  * Cell Sizing: 10/12
  */
 
-.o-grid-cell.o-grid-cell--10 {
+.o-grid-cell--10 {
   flex-basis: 83.33333333%;
   max-width: 83.33333333%;
 }
@@ -273,7 +273,7 @@
  * Cell Sizing: 11/12
  */
 
-.o-grid-cell.o-grid-cell--11 {
+.o-grid-cell--11 {
   flex-basis: 91.66666667%;
   max-width: 91.66666667%;
 }
@@ -282,7 +282,7 @@
  * Cell Sizing: 12/12
  */
 
-.o-grid-cell.o-grid-cell--12 {
+.o-grid-cell--12 {
   flex-basis: 100%;
   max-width: 100%;
 }
@@ -291,7 +291,7 @@
  * Cell Offset From Left: 1 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-1 {
+.o-grid-cell--offset-1 {
   margin-left: 8.33333333%;
 }
 
@@ -299,7 +299,7 @@
  * Cell Offset From Left: 2 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-2 {
+.o-grid-cell--offset-2 {
   margin-left: 16.66666667%;
 }
 
@@ -307,7 +307,7 @@
  * Cell Offset From Left: 3 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-3 {
+.o-grid-cell--offset-3 {
   margin-left: 25%;
 }
 
@@ -315,7 +315,7 @@
  * Cell Offset From Left: 4 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-4 {
+.o-grid-cell--offset-4 {
   margin-left: 33.33333333%;
 }
 
@@ -323,7 +323,7 @@
  * Cell Offset From Left: 5 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-5 {
+.o-grid-cell--offset-5 {
   margin-left: 41.66666667%;
 }
 
@@ -331,7 +331,7 @@
  * Cell Offset From Left: 6 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-6 {
+.o-grid-cell--offset-6 {
   margin-left: 50%;
 }
 
@@ -339,7 +339,7 @@
  * Cell Offset From Left: 7 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-7 {
+.o-grid-cell--offset-7 {
   margin-left: 58.33333333%;
 }
 
@@ -347,7 +347,7 @@
  * Cell Offset From Left: 8 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-8 {
+.o-grid-cell--offset-8 {
   margin-left: 66.66666667%;
 }
 
@@ -355,7 +355,7 @@
  * Cell Offset From Left: 9 /12
  */
 
-.o-grid-cell.o-grid-cell--offset-9 {
+.o-grid-cell--offset-9 {
   margin-left: 75%;
 }
 
@@ -363,7 +363,7 @@
  * Cell Offset From Left: 10/12
  */
 
-.o-grid-cell.o-grid-cell--offset-10 {
+.o-grid-cell--offset-10 {
   margin-left: 83.33333333%;
 }
 
@@ -371,7 +371,7 @@
  * Cell Offset From Left: 11/12
  */
 
-.o-grid-cell.o-grid-cell--offset-11 {
+.o-grid-cell--offset-11 {
   margin-left: 91.66666667%;
 }
 
@@ -379,7 +379,7 @@
  * Modifier: Individual cell alignment to the center
  * along the flex-container's cross-axis.
  */
-.o-grid-cell.o-grid-cell--middle {
+.o-grid-cell--middle {
   align-self: center;
 }
 
@@ -387,7 +387,7 @@
  * Modifier: Individual cell alignment to the top
  * along the flex-container's cross-axis.
  */
-.o-grid-cell.o-grid-cell--top {
+.o-grid-cell--top {
   align-self: flex-start;
 }
 
@@ -395,6 +395,6 @@
  * Modifier: Individual cell alignment to the bottom
  * along the flex-container's cross-axis.
  */
-.o-grid-cell.o-grid-cell--bottom {
+.o-grid-cell--bottom {
   align-self: flex-end;
 }
