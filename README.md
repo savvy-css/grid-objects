@@ -23,6 +23,16 @@ npm install --save-dev @savvy-css/grid-object-patterns
 
 ## Usage
 
+Within a project that's capable of importing CSS, simply import
+the module by its package name within your own CSS:
+
+```css
+@import "@savvy-css/grid-objects";
+```
+
+Importing this module will add [its properties](/lib/grid-objects.css) to your project. To override them, simply define them in any portion of your CSS that's imported/processed later.
+
+🔑 For practical tips, [check out Savvy's guide on using the grid](https://github.com/savvy-css/savvy/blob/master/doc/guides/using-the-grid.md).
 
 [npm-badge]: https://img.shields.io/npm/v/@savvy-css/grid-object-patterns.svg
 [npm-badge-url]: https://www.npmjs.com/package/@savvy-css/grid-object-patterns
