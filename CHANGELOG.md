@@ -1,3 +1,8 @@
+# 0.2.1 &mdash; July 27, 2017
+
+- **[PATCH]** Fix npm build output
+
+
 # 0.2.0 &mdash; July 27, 2017
 
 - **[BREAKING CHANGE]** Lessen selector specificity.
