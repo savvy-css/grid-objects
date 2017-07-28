@@ -1,6 +1,6 @@
 {
   "name": "@savvy-css/grid-object-patterns",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Grid object patterns for Savvy CSS.",
   "main": "build/grid-object-patterns.css",
   "style": "build/grid-object-patterns.css",
