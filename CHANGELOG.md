@@ -1,3 +1,9 @@
+# 0.2.0 &mdash; July 27, 2017
+
+- **[BREAKING CHANGE]** Lessen selector specificity.
+  - For example, `.o-grid-cell.o-grid-cell--1` is now just `.o-grid-cell--1`.
+
+
 # 0.1.0 &mdash; June 24, 2017
 
 - **[BREAKING CHANGE]** change `o-grid-cell-*` to `o-grid-cell--*`.
