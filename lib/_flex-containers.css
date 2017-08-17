@@ -1,0 +1,160 @@
+@import "@savvy-css/spacing-variables";
+
+/**
+ * ----------------------------------------------------------------------------
+ * Containing grid element
+ *
+ * DO NOT apply dimension or offset utilities to the `o-grid` element. All cell
+ * widths and offsets should be applied to child grid cells.
+ *
+ * 1. Account for browser defaults of elements that might be the root node of
+ *    the component.
+ * ----------------------------------------------------------------------------
+ */
+
+.o-grid {
+  box-sizing: border-box;
+  display: flex; /* 1 */
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0; /* 1 */
+  padding: 0; /* 1 */
+}
+
+/**
+ * Modifier: All grid cells are evenly spaced AND the
+ * main-start edge and main-end edge are flushed with respectively
+ * first and last flex item edges.
+ */
+
+.o-grid--space-between {
+  justify-content: space-between;
+}
+
+/**
+ * Modifier: All grid cells are evenly spaced AND the
+ * empty space before the first and after the last items equals
+ * half of the space between two adjacent items.
+ */
+
+.o-grid--space-around {
+  justify-content: space-around;
+}
+
+/**
+ * Modifier: center-align all grid cells
+ */
+
+.o-grid--align-center {
+  justify-content: center;
+}
+
+/**
+ * Modifier: right-align all grid cells
+ */
+
+.o-grid--align-right {
+  justify-content: flex-end;
+}
+
+/**
+ * Modifier: left-align all grid cells
+ *
+ * NOTE: This is already the default for grid containers, so this
+ * helper usually won't be necessary, but is provided for completeness
+ */
+
+.o-grid--align-left {
+  justify-content: flex-start;
+}
+
+/**
+ * Modifier: middle-align all grid cells
+ */
+
+.o-grid--align-middle {
+  align-items: center;
+}
+
+/**
+ * Modifier: bottom-align all grid cells
+ */
+
+.o-grid--align-bottom {
+  align-items: flex-end;
+}
+
+/**
+ * Modifier: top-align all grid cells
+ *
+ * NOTE: This is already the default for grid containers, so this
+ * helper usually won't be necessary, but is provided for completeness
+ */
+
+.o-grid--align-top {
+  align-items: flex-start;
+}
+
+/**
+ * Modifier: Prevent grid cells from wrapping to the next line
+ */
+
+.o-grid--nowrap {
+  flex-wrap: nowrap;
+}
+
+/**
+ * Modifier: allow cells to equal distribute width
+ *
+ * 1. Provide all values to avoid IE10 bug with shorthand flex
+ *    http://git.io/vllC7
+ *
+ *    Use `0%` to avoid bug in IE10/11 with unitless flex basis
+ *    http://git.io/vllWx
+ */
+
+.o-grid--fit > .o-grid-cell {
+  flex: 1 1 0%; /* 1 */
+}
+
+/**
+ * Modifier: allow cells to fill the entire width of their grid container
+ */
+
+.o-grid--fill > .o-grid-cell {
+  flex: 1 0 100%;
+}
+
+
+/**
+ * Modifier: all cells match height of tallest cell in a row
+ */
+
+.o-grid--equal-height > .o-grid-cell {
+  display: flex;
+}
+
+/**
+ * Modifier: gutters
+ */
+
+.o-grid--guttered {
+  margin: 0 calc(-0.5 * var(--spacing-md));
+}
+.o-grid--guttered > .o-grid-cell {
+  padding: 0 calc(0.5 * var(--spacing-md));
+}
+
+.o-grid--guttered-sm {
+  margin: 0 calc(-0.5 * var(--spacing-sm));
+}
+.o-grid--guttered-sm> .o-grid-cell {
+  padding: 0 calc(0.5 * var(--spacing-sm));
+}
+
+.o-grid--guttered-lg {
+  margin: 0 calc(-0.5 * var(--spacing-lg));
+}
+.o-grid--guttered-lg > .o-grid-cell {
+  padding: 0 calc(0.5 * var(--spacing-lg));
+}
