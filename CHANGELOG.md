@@ -1,3 +1,8 @@
+# 0.2.2 &mdash; August 17, 2017
+
+- **[ENHANCEMENT]** Add new `o-grid-cell` helpers for controlling flex grow, flex shrink, and auto flex basis.
+
+
 # 0.2.1 &mdash; July 27, 2017
 
 - **[PATCH]** Fix npm build output
